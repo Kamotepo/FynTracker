@@ -1,0 +1,18 @@
+/* Navbar shrink effect */
+#mainNavbar {
+  transition: all 0.3s ease;
+  padding: 16px 0;
+}
+
+#mainNavbar.shrink {
+  padding: 6px 0;
+}
+
+/* Logo shrink */
+#mainNavbar img {
+  transition: height 0.3s ease;
+}
+
+#mainNavbar.shrink img {
+  height: 24px !important;
+}
